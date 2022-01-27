@@ -1,12 +1,13 @@
 window.addEventListener("load", () => {
     let backgroundBody = document.getElementById('corpo');
-    let lithButton = document.getElementById('lith');
+    let modeButton = document.getElementsByClassName('mode')
+    let lightButton = document.getElementById('light');
     let darkButton = document.getElementById('dark');
 
-    lithButton.addEventListener("click", corLith);
+    lightButton.addEventListener("click", corLight);
     darkButton.addEventListener("click", corDark);
 
-    function corLith(){
+    function corLight(){
         backgroundBody.style.backgroundColor = "#ffffff";
         backgroundBody.style.color = "#333333"
     }
@@ -14,5 +15,6 @@ window.addEventListener("load", () => {
     function corDark(){
         backgroundBody.style.backgroundColor = "#333333";
         backgroundBody.style.color = "#ffffff"
+        modeButton.style.color = "#ffffff"
     }
 })

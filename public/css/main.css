@@ -1,10 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 *{
     margin: 0px;
 }
+
+h1{
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    margin: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn-color{
     width: 5em;
-    height: 1.5em;
-    border: solid 1px;
-    margin-right: 0px;
-    margin-left: 0px;
+    height: 3em;
+    border: solid 2px;
+    border-radius: 2em;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+.dark{
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #383535;
+    font-weight: bolder;
+}
+
+.light{
+    color: #000000;
+    border-color: #333333;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+
+.btns{
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
 }
