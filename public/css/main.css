@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+}
+.btn-color{
+    width: 5em;
+    height: 1.5em;
+    border: solid 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
